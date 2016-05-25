@@ -41,6 +41,12 @@
     <developerConnection>scm:git:git@github.com:aws/aws-sdk-java-samples.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
@@ -101,16 +107,6 @@
                 </goals>
               </execution>
             </executions>
-          </plugin>
-          <plugin>
-            <groupId>org.sonatype.plugins</groupId>
-            <artifactId>nexus-staging-maven-plugin</artifactId>
-            <version>1.5.1</version>
-            <extensions>true</extensions>
-            <configuration>
-              <serverId>nexus</serverId>
-              <nexusUrl>https://oss.sonatype.org</nexusUrl>
-            </configuration>
           </plugin>
         </plugins>
       </build>
