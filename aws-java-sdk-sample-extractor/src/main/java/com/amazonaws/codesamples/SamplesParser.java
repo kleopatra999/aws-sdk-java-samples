@@ -76,10 +76,8 @@ public class SamplesParser {
     /**
      * Returns a list of samples parsed from a file.
      *
-     * @param files
-     *            input files
-     * @param targetExtension
-     *            extension of files to parse
+     * @param file
+     *            input file
      * @return list of samples
      * @throws Exception
      *             if an error occurs while getting samples

@@ -58,7 +58,7 @@ public class SampleHTMLTemplates {
     /**
      * Injects HTML formatted samples into an outer samples HTML block.
      *
-     * @param formattedSamples
+     * @param samples
      *            HTML formatted samples
      * @return formatted outer HTML samples block
      */
