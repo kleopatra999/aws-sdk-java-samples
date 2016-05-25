@@ -38,7 +38,7 @@
     <module>aws-java-sdk-samples</module>
   </modules>
   <scm>
-    <developerConnection>scm:git:git://github.com/breedloj/aws-java-sdk-samples</developerConnection>
+    <developerConnection>scm:git:git://github.com/aws/aws-java-sdk-samples</developerConnection>
   </scm>
   <build>
     <pluginManagement>
