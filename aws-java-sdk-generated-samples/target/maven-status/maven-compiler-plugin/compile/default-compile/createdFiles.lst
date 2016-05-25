@@ -1,0 +1,5 @@
+com/amazonaws/samples/exception/SampleGenerationException.class
+com/amazonaws/samples/SampleGenerationRunner.class
+com/amazonaws/samples/util/IntermediateModelRetriever.class
+com/amazonaws/samples/GeneratedSamplesClassWriter.class
+com/amazonaws/samples/SamplesGenerator.class

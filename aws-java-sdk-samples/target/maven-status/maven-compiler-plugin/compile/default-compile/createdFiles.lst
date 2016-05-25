@@ -1,0 +1,7 @@
+com/amazonaws/codesamples/SampleCodeReader.class
+com/amazonaws/codesamples/exception/SampleRetrievalException.class
+com/amazonaws/codesamples/util/ValidationUtils.class
+com/amazonaws/codesamples/SampleCodeTaglet.class
+com/amazonaws/codesamples/util/SampleHTMLTemplates.class
+com/amazonaws/codesamples/RetrievedCodeSample.class
+com/amazonaws/codesamples/SampleCodeXMLParser.class

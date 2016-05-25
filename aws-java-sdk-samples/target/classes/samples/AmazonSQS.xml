@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<codeSamples>
+<sample description="The following operation creates an SQS queue named MyQueue." id="CreateQueue" title="Create an SQS queue">
+<content>AmazonSQS client = new AmazonSQSClient();
+CreateQueueRequest request = new CreateQueueRequest()
+        .withQueueName("MyQueue");
+CreateQueueResult response = client.createQueue(request);</content>
+</sample>
+<sample description="The following example retrieves the queue ARN." id="GetQueueUrl" title="Retrieve queue attributes from an SQS queue">
+<content>AmazonSQS client = new AmazonSQSClient();
+GetQueueUrlRequest request = new GetQueueUrlRequest().withQueueName(
+        "MyQueue").withQueueOwnerAWSAccountId("12345678910");
+GetQueueUrlResult response = client.getQueueUrl(request);</content>
+</sample>
+</codeSamples>

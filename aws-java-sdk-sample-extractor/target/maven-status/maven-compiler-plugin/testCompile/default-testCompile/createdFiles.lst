@@ -1,0 +1,5 @@
+com/amazonaws/codesamples/SamplesParserTest.class
+com/amazonaws/codesamples/SampleExtractorTestUtils.class
+com/amazonaws/codesamples/SampleWriterTest.class
+com/amazonaws/codesamples/CodeSampleTest.class
+com/amazonaws/util/ParsingUtilsTest.class
