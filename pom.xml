@@ -10,7 +10,7 @@
 
   <groupId>com.amazonaws</groupId>
   <artifactId>aws-java-sdk-pom</artifactId>
-  <version>1.0.5-SNAPSHOT</version>
+  <version>1.0.5</version>
   <packaging>pom</packaging>
   <name>AWS SDK for Java Samples</name>
   <url>https://aws.amazon.com/sdkforjava</url>
@@ -39,7 +39,7 @@
   </modules>
   <scm>
     <developerConnection>scm:git:git@github.com:aws/aws-sdk-java-samples.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>aws-java-sdk-pom-1.0.5</tag>
   </scm>
   <build>
     <pluginManagement>
